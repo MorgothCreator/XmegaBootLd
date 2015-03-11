@@ -1,0 +1,681 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+                              IO_Flash_Internal.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+                              IO_Flash_Internal.o (__prologue_saves__)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+                              IO_EEP_Internal.o (__epilogue_restores__)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eerd_byte_atxmega32e5.o)
+                              IO_EEP_Internal.o (__eerd_byte_x32e5)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eewr_byte_atxmega32e5.o)
+                              IO_EEP_Internal.o (__eewr_byte_x32e5)
+
+Allocating common symbols
+Common symbol       size              file
+
+globalInt           0x1               IO_Flash_Internal.o
+RegPageInBuffer     0x4               Xmega_BootLoader.o
+pmicStore           0x1               IO_Flash_Internal.o
+sleepCtr            0x1               IO_Flash_Internal.o
+statusStore         0x1               IO_Flash_Internal.o
+RxBinBuffer         0x32              Xmega_BootLoader.o
+RegFlashEEPromWriteMode
+                    0x1               Xmega_BootLoader.o
+ExtendedSegmentAddressRecord
+                    0x4               Xmega_BootLoader.o
+FlashPageBuffer     0x80              Xmega_BootLoader.o
+spmintStore         0x1               IO_Flash_Internal.o
+RxHexBuffer         0x64              Xmega_BootLoader.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+ .text          0x00000000        0x0 IO_EEP_Internal.o
+ .data          0x00000000        0x0 IO_EEP_Internal.o
+ .bss           0x00000000        0x0 IO_EEP_Internal.o
+ .text.EEPROM_WaitForNVM
+                0x00000000        0xa IO_EEP_Internal.o
+ .text          0x00000000        0x0 IO_Flash_Internal.o
+ .data          0x00000000        0x0 IO_Flash_Internal.o
+ .bss           0x00000000        0x0 IO_Flash_Internal.o
+ .text.PMIC_SetVectorLocationToApplication
+                0x00000000       0x10 IO_Flash_Internal.o
+ .text.EraseApplicationPage
+                0x00000000       0x2c IO_Flash_Internal.o
+ .data          0x00000000        0x0 sp_driver.o
+ .bss           0x00000000        0x0 sp_driver.o
+ .text          0x00000000        0x0 Xmega_BootLoader.o
+ .data          0x00000000        0x0 Xmega_BootLoader.o
+ .bss           0x00000000        0x0 Xmega_BootLoader.o
+ .text.usart_getc
+                0x00000000        0x6 Xmega_BootLoader.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eerd_byte_atxmega32e5.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eerd_byte_atxmega32e5.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eerd_byte_atxmega32e5.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eewr_byte_atxmega32e5.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eewr_byte_atxmega32e5.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eewr_byte_atxmega32e5.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00802000         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+LOAD IO_EEP_Internal.o
+LOAD IO_Flash_Internal.o
+LOAD sp_driver.o
+LOAD Xmega_BootLoader.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libm.a
+END GROUP
+Address of section .txt set to 0x20000
+Address of section .text set to 0x10000
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00010000      0xaac
+ *(.vectors)
+ .vectors       0x00010000       0xac c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+                0x00010000                __vector_default
+                0x00010000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000100ac                . = ALIGN (0x2)
+                0x000100ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000100ac        0x0 linker stubs
+ *(.trampolines*)
+                0x000100ac                __trampolines_end = .
+ *(.progmem*)
+                0x000100ac                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000100ac                __ctors_start = .
+ *(.ctors)
+                0x000100ac                __ctors_end = .
+                0x000100ac                __dtors_start = .
+ *(.dtors)
+                0x000100ac                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000100ac        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+                0x000100ac                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000100ac        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000100b8       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_clear_bss.o)
+                0x000100b8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000100c8        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+ *(.init9)
+ *(.text)
+ .text          0x000100cc        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2/crtx32e5.o
+                0x000100cc                __vector_38
+                0x000100cc                __vector_22
+                0x000100cc                __vector_28
+                0x000100cc                __vector_1
+                0x000100cc                __vector_32
+                0x000100cc                __vector_34
+                0x000100cc                __vector_24
+                0x000100cc                __vector_12
+                0x000100cc                __bad_interrupt
+                0x000100cc                __vector_6
+                0x000100cc                __vector_31
+                0x000100cc                __vector_35
+                0x000100cc                __vector_39
+                0x000100cc                __vector_3
+                0x000100cc                __vector_23
+                0x000100cc                __vector_30
+                0x000100cc                __vector_25
+                0x000100cc                __vector_11
+                0x000100cc                __vector_13
+                0x000100cc                __vector_17
+                0x000100cc                __vector_19
+                0x000100cc                __vector_7
+                0x000100cc                __vector_41
+                0x000100cc                __vector_5
+                0x000100cc                __vector_33
+                0x000100cc                __vector_37
+                0x000100cc                __vector_4
+                0x000100cc                __vector_9
+                0x000100cc                __vector_2
+                0x000100cc                __vector_21
+                0x000100cc                __vector_15
+                0x000100cc                __vector_36
+                0x000100cc                __vector_29
+                0x000100cc                __vector_40
+                0x000100cc                __vector_8
+                0x000100cc                __vector_14
+                0x000100cc                __vector_10
+                0x000100cc                __vector_16
+                0x000100cc                __vector_18
+                0x000100cc                __vector_20
+                0x000100cc                __vector_42
+ .text          0x000100ce      0x114 sp_driver.o
+                0x000100ce                SP_ReadByte
+                0x000100da                SP_ReadWord
+                0x000100e8                SP_ReadCalibrationByte
+                0x000100ec                SP_ReadUserSignatureByte
+                0x000100f0                SP_ReadFuseByte
+                0x00010106                SP_WriteLockBits
+                0x0001010e                SP_ReadLockBits
+                0x00010114                SP_EraseUserSignatureRow
+                0x0001011a                SP_WriteUserSignatureRow
+                0x00010120                SP_EraseApplicationSection
+                0x00010126                SP_EraseApplicationPage
+                0x00010130                SP_LoadFlashWord
+                0x00010138                SP_ReadFlashPage
+                0x0001015a                SP_WriteApplicationPage
+                0x00010164                SP_EraseWriteApplicationPage
+                0x0001016e                SP_EraseFlashBuffer
+                0x00010174                SP_EraseBootPage
+                0x0001017e                SP_WriteBootPage
+                0x00010188                SP_EraseWriteBootPage
+                0x00010192                SP_ApplicationCRC
+                0x00010196                SP_BootCRC
+                0x0001019a                SP_LockSPM
+                0x000101a8                SP_WaitForSPM
+                0x000101e2                . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_26
+                0x000101e2       0x2a IO_EEP_Internal.o
+                0x000101e2                __vector_26
+ .text.EEPROM_write_page
+                0x0001020c       0x38 IO_EEP_Internal.o
+                0x0001020c                EEPROM_write_page
+ .text.EEPROM_ReadByte
+                0x00010244       0x14 IO_EEP_Internal.o
+                0x00010244                EEPROM_ReadByte
+ .text.__vector_27
+                0x00010258       0x58 IO_Flash_Internal.o
+                0x00010258                __vector_27
+ .text.PMIC_SetVectorLocationToBoot
+                0x000102b0       0x10 IO_Flash_Internal.o
+                0x000102b0                PMIC_SetVectorLocationToBoot
+ .text.Prepare_to_Sleep
+                0x000102c0       0x38 IO_Flash_Internal.o
+                0x000102c0                Prepare_to_Sleep
+ .text.EraseWriteApplicationPage
+                0x000102f8       0x24 IO_Flash_Internal.o
+                0x000102f8                EraseWriteApplicationPage
+ .text.ClearFlashBuffer
+                0x0001031c        0x6 IO_Flash_Internal.o
+                0x0001031c                ClearFlashBuffer
+ .text.LoadFlashWord
+                0x00010322       0x28 IO_Flash_Internal.o
+                0x00010322                LoadFlashWord
+ .text.usart_init
+                0x0001034a       0x20 Xmega_BootLoader.o
+                0x0001034a                usart_init
+ .text.usart_putc
+                0x0001036a        0xe Xmega_BootLoader.o
+                0x0001036a                usart_putc
+ .text.clear_buff
+                0x00010378       0x10 Xmega_BootLoader.o
+                0x00010378                clear_buff
+ .text.read_eeprom_page_in_buffer
+                0x00010388       0x3e Xmega_BootLoader.o
+                0x00010388                read_eeprom_page_in_buffer
+ .text.read_flash_page_in_buffer
+                0x000103c6       0x5c Xmega_BootLoader.o
+                0x000103c6                read_flash_page_in_buffer
+ .text.write_flash_page_from_buffer
+                0x00010422       0x7c Xmega_BootLoader.o
+                0x00010422                write_flash_page_from_buffer
+ .text.strcmp_enter_to_boot
+                0x0001049e       0x46 Xmega_BootLoader.o
+                0x0001049e                strcmp_enter_to_boot
+ .text.strcmp_enter_to_flash
+                0x000104e4       0x36 Xmega_BootLoader.o
+                0x000104e4                strcmp_enter_to_flash
+ .text.strcmp_enter_to_eep
+                0x0001051a       0x3e Xmega_BootLoader.o
+                0x0001051a                strcmp_enter_to_eep
+ .text.strcmp_enter_to_exit
+                0x00010558       0x26 Xmega_BootLoader.o
+                0x00010558                strcmp_enter_to_exit
+ .text.receive_data
+                0x0001057e       0x58 Xmega_BootLoader.o
+                0x0001057e                receive_data
+ .text.check_if_is_hex_char_and_convert
+                0x000105d6       0x16 Xmega_BootLoader.o
+                0x000105d6                check_if_is_hex_char_and_convert
+ .text.hex_to_bin
+                0x000105ec       0x68 Xmega_BootLoader.o
+                0x000105ec                hex_to_bin
+ .text.check_sum
+                0x00010654       0x56 Xmega_BootLoader.o
+                0x00010654                check_sum
+ .text.append_line_in_eeprom_buffer
+                0x000106aa       0xd8 Xmega_BootLoader.o
+                0x000106aa                append_line_in_eeprom_buffer
+ .text.append_line_in_flash_buffer
+                0x00010782       0xb8 Xmega_BootLoader.o
+                0x00010782                append_line_in_flash_buffer
+ .text.startup.main
+                0x0001083a      0x1ca Xmega_BootLoader.o
+                0x0001083a                main
+ .text.libgcc.prologue
+                0x00010a04       0x32 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_prologue.o)
+                0x00010a04                __prologue_saves__
+ .text.libgcc.prologue
+                0x00010a36       0x30 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_epilogue.o)
+                0x00010a36                __epilogue_restores__
+ .text.avr-libc
+                0x00010a66       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eerd_byte_atxmega32e5.o)
+                0x00010a66                __eerd_byte_x32e5
+                0x00010a6e                eeprom_mapen
+ .text.avr-libc
+                0x00010a76       0x32 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avrxmega2\libc.a(eewr_byte_atxmega32e5.o)
+                0x00010a76                __eewr_byte_x32e5
+                0x00010a78                __eewr_r18_x32e5
+                0x00010aa8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00010aa8        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+                0x00010aa8                _exit
+                0x00010aa8                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00010aa8        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avrxmega2\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00010aac                _etext = .
+
+.BOOT           0x00010aac       0x3a
+ .BOOT          0x00010aac       0x3a sp_driver.o
+                0x00010aac                SP_LoadFlashPage
+
+.data           0x00802000        0x0 load address 0x00010ae6
+                0x00802000                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00802000                . = ALIGN (0x2)
+                0x00802000                _edata = .
+                0x00802000                PROVIDE (__data_end, .)
+
+.bss            0x00802000      0x127
+                0x00802000                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.CheckSum  0x00802000        0x1 Xmega_BootLoader.o
+                0x00802000                CheckSum
+ .bss.CountToExtractBytesFromBinBuffer
+                0x00802001        0x1 Xmega_BootLoader.o
+                0x00802001                CountToExtractBytesFromBinBuffer
+ .bss.CountProcessedBytes
+                0x00802002        0x1 Xmega_BootLoader.o
+                0x00802002                CountProcessedBytes
+ *(COMMON)
+ COMMON         0x00802003        0x5 IO_Flash_Internal.o
+                0x00802003                globalInt
+                0x00802004                pmicStore
+                0x00802005                sleepCtr
+                0x00802006                statusStore
+                0x00802007                spmintStore
+ COMMON         0x00802008      0x11f Xmega_BootLoader.o
+                0x00802008                RegPageInBuffer
+                0x0080200c                RxBinBuffer
+                0x0080203e                RegFlashEEPromWriteMode
+                0x0080203f                ExtendedSegmentAddressRecord
+                0x00802043                FlashPageBuffer
+                0x008020c3                RxHexBuffer
+                0x00802127                PROVIDE (__bss_end, .)
+                0x00010ae6                __data_load_start = LOADADDR (.data)
+                0x00010ae6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00802127        0x0
+                0x00802127                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00802127                PROVIDE (__noinit_end, .)
+                0x00802127                _end = .
+                0x00802127                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 IO_EEP_Internal.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 IO_Flash_Internal.o
+ .comment       0x00000000       0x31 Xmega_BootLoader.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x160
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 IO_EEP_Internal.o
+ .debug_aranges
+                0x00000038       0x58 IO_Flash_Internal.o
+ .debug_aranges
+                0x00000090       0x28 sp_driver.o
+ .debug_aranges
+                0x000000b8       0xa8 Xmega_BootLoader.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x182f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2e7 IO_EEP_Internal.o
+ .debug_info    0x000002e7      0x522 IO_Flash_Internal.o
+ .debug_info    0x00000809       0x62 sp_driver.o
+ .debug_info    0x0000086b      0xfc4 Xmega_BootLoader.o
+
+.debug_abbrev   0x00000000      0x737
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x186 IO_EEP_Internal.o
+ .debug_abbrev  0x00000186      0x1a1 IO_Flash_Internal.o
+ .debug_abbrev  0x00000327       0x12 sp_driver.o
+ .debug_abbrev  0x00000339      0x3fe Xmega_BootLoader.o
+
+.debug_line     0x00000000     0x101d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1b7 IO_EEP_Internal.o
+ .debug_line    0x000001b7      0x272 IO_Flash_Internal.o
+ .debug_line    0x00000429      0x3b2 sp_driver.o
+ .debug_line    0x000007db      0x842 Xmega_BootLoader.o
+
+.debug_frame    0x00000000      0x3a8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 IO_EEP_Internal.o
+ .debug_frame   0x00000090       0xe8 IO_Flash_Internal.o
+ .debug_frame   0x00000178      0x230 Xmega_BootLoader.o
+
+.debug_str      0x00000000      0xbf1
+ *(.debug_str)
+ .debug_str     0x00000000      0x269 IO_EEP_Internal.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x00000269      0x1f2 IO_Flash_Internal.o
+                                0x43e (size before relaxing)
+ .debug_str     0x0000045b      0x796 Xmega_BootLoader.o
+                                0xabf (size before relaxing)
+
+.debug_loc      0x00000000      0xc93
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x193 IO_EEP_Internal.o
+ .debug_loc     0x00000193      0x1e5 IO_Flash_Internal.o
+ .debug_loc     0x00000378      0x91b Xmega_BootLoader.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x128
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x28 IO_EEP_Internal.o
+ .debug_ranges  0x00000028       0x48 IO_Flash_Internal.o
+ .debug_ranges  0x00000070       0x20 sp_driver.o
+ .debug_ranges  0x00000090       0x98 Xmega_BootLoader.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Xmega_BootLoader.elf elf32-avr)
+LOAD linker stubs
+
+.txt            0x00020000        0x0
