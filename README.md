@@ -37,11 +37,10 @@ The boot loader report on every line the status chars:
 6) 'k' received line is OK and has been writed on buffer.
 
 
-This bootloader work on flash memory with pages, 
+This bootloader work with flash memory with pages, 
 all received data will be writed into a buffer until are received a request to write in another page, 
 when is received a write to another page the bootloader will write the buffer data into flash page 
 and will load to buffer the request write page, in this mode the bootloader not write directly to flash 
-
 but append data on flash.
 
 
