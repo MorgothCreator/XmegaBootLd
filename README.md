@@ -1,4 +1,7 @@
 # XmegaBootLd
+
+# The project has been moved here https://morgothdisk.com:30001/explore/projects
+
 A fast bootloader in hex data transfer mode.
 
 This is the first public release.
